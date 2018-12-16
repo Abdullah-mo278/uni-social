@@ -52,7 +52,7 @@ class _MyHomePageState extends State<MyHomePage> {
             itemBuilder: (BuildContext context, i) {
               return new ListTile(
                 title: new Text(data[i]["content"]),
-                subtitle: new Text("a7a"),
+                subtitle: new Text("test"),
                 
                 );
             }
